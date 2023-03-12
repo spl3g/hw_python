@@ -1,7 +1,5 @@
-k = int(input())
-m = int(input())
-n = int(input())
-if k > n:
-    print(m * (n * 2))
-else:
-    print(m * (n * 2) // k)
+x = int(input())
+d = 2
+while x % d != 0:  # Цикл завершится, если введенное число разделится на цело
+    d += 1  # Перебор делителей
+print(d)
